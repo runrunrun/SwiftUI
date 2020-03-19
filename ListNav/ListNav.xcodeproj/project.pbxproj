@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		952B9A4A24236C29003C4365 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952B9A4924236C29003C4365 /* DataSource.swift */; };
+		952B9A4C24237048003C4365 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952B9A4B24237048003C4365 /* Player.swift */; };
 		B5B8E4E32398FD3F00870670 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B8E4E22398FD3F00870670 /* AppDelegate.swift */; };
 		B5B8E4E52398FD3F00870670 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B8E4E42398FD3F00870670 /* SceneDelegate.swift */; };
 		B5B8E4E72398FD3F00870670 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B8E4E62398FD3F00870670 /* ContentView.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		952B9A4924236C29003C4365 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		952B9A4B24237048003C4365 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		B5B8E4DF2398FD3F00870670 /* ListNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B8E4E22398FD3F00870670 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5B8E4E42398FD3F00870670 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 			children = (
 				B5B8E4E22398FD3F00870670 /* AppDelegate.swift */,
 				B5B8E4E42398FD3F00870670 /* SceneDelegate.swift */,
+				952B9A4B24237048003C4365 /* Player.swift */,
+				952B9A4924236C29003C4365 /* DataSource.swift */,
 				B5B8E4E62398FD3F00870670 /* ContentView.swift */,
 				B5B8E4F6239B691900870670 /* Manu Players */,
 				B5B8E4E82398FD4000870670 /* Assets.xcassets */,
@@ -198,6 +204,8 @@
 			files = (
 				B5B8E4E32398FD3F00870670 /* AppDelegate.swift in Sources */,
 				B5B8E4E52398FD3F00870670 /* SceneDelegate.swift in Sources */,
+				952B9A4A24236C29003C4365 /* DataSource.swift in Sources */,
+				952B9A4C24237048003C4365 /* Player.swift in Sources */,
 				B5B8E4E72398FD3F00870670 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

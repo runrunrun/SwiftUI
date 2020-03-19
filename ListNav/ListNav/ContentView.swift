@@ -9,31 +9,17 @@
 import Combine
 import SwiftUI
 
-class DataSource: ObservableObject {
-    @Published var pictures = [String]()
-
-    init() {
-        let fm = FileManager.default
-        guard let path = Bundle.main.resourcePath,
-            let items = try? fm.contentsOfDirectory(atPath: path) else {
-            return
-        }
-
-        for item in items {
-            if item.hasPrefix("manu") {
-                pictures.append(item)
-            }
-        }
-    }
-}
-
 struct ContentView: View {
     @ObservedObject var dataSource = DataSource()
 
     var body: some View {
         NavigationView {
-            List(dataSource.pictures, id: \.self) { picture in
-              Text(picture)
+            List(dataSource.players, id: \.self) { player in
+                Image(uiImage: player.image ?? UIImage())
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 100, height: 100)
+                Text(player.name.capitalized)
             }.navigationBarTitle(Text("Machester United Players"))
         }
     }
