@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  AvocadoToast
+
+  Created by Kunwar, Hari on 12/24/20.
+  
+*/
+"ToastOrder.AvocadoToast" = "Avocado Toast";
+"ToastOrder.IncludeSalt" = "Include Salt";
+"ToastOrder.IncludeRedPepper" = "Include Red Pepper";
+"ToastOrder.Quantity" = "Quantity: %d";
+"ToastOrder.Order" = "Order";
+

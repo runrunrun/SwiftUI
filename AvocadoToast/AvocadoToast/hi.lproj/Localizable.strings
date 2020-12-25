@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  AvocadoToast
+
+  Created by Kunwar, Hari on 12/24/20.
+  
+*/
+"ToastOrder.AvocadoToast" = "एवोकैडो टोस्ट";
+"ToastOrder.IncludeSalt" = "नमक डालें";
+"ToastOrder.IncludeRedPepper" = "लाल मिर्च डालें";
+"ToastOrder.Quantity" = "मात्रा: %d";
+"ToastOrder.Order" = "मंगाओ";
