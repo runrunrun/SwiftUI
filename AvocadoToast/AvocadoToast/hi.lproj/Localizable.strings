@@ -10,3 +10,4 @@
 "ToastOrder.IncludeRedPepper" = "लाल मिर्च डालें";
 "ToastOrder.Quantity" = "मात्रा: %d";
 "ToastOrder.Order" = "मंगाओ";
+"ToastOrder.History" = "इतिहास";

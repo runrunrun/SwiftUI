@@ -14,17 +14,24 @@ struct ToastShop: View {
         OrderForm()
           .tabItem {
           Image(systemName: "square.and.pencil")
-          Text("Order")
+          Text(LocalizedString.order)
         }
         OrderHistory()
           .tabItem {
             Image(systemName: "clock.fill")
-            Text("History")
+            Text(LocalizedString.history)
           }
       }
     }
   }
+}
 
+// MARK: - LocalizedString
+extension ToastShop {
+  struct LocalizedString {
+    static let order = NSLocalizedString("ToastOrder.Order", comment: "Order toast.")
+    static let history = NSLocalizedString("ToastOrder.History", comment: "Order history.")
+  }
 }
 
 struct ToastShop_Previews: PreviewProvider {

@@ -10,4 +10,5 @@
 "ToastOrder.IncludeRedPepper" = "Include Red Pepper";
 "ToastOrder.Quantity" = "Quantity: %d";
 "ToastOrder.Order" = "Order";
+"ToastOrder.History" = "History";
 
