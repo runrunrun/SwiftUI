@@ -1,5 +1,5 @@
 //
-//  ToastOrderView.swift
+//  OrderForm.swift
 //  AvocadoToast
 //
 //  Created by Kunwar, Hari on 12/24/20.
@@ -7,14 +7,8 @@
 
 import SwiftUI
 
-struct Order {
-  var includeSalt: Bool
-  var includeRedPepper: Bool
-  var quantity: Int
-}
-
-struct ToastOrderView: View {
-  @State var order: Order
+struct OrderForm: View {
+  @State private var order: Order = Order()
   var submitOrder: (() -> Void) = {}
   var body: some View {
     VStack {
@@ -36,7 +30,7 @@ struct ToastOrderView: View {
 }
 
 // MARK: - LocalizedString
-extension ToastOrderView {
+extension OrderForm {
   struct LocalizedString {
     static let avocadoToast = NSLocalizedString("ToastOrder.AvocadoToast", comment: "")
     static let includeSalt = NSLocalizedString("ToastOrder.IncludeSalt", comment: "Add salt to toast.")
@@ -51,11 +45,8 @@ extension ToastOrderView {
 }
 
 // MARK: - PreviewProvider
-struct ToastOrderView_Previews: PreviewProvider {
+struct OrderForm_Previews: PreviewProvider {
   static var previews: some View {
-    let order = Order(includeSalt: false,
-                      includeRedPepper: true,
-                      quantity: 2)
-    ToastOrderView(order: order)
+    OrderForm()
   }
 }

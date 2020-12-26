@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B51FA64225976CD400F0BEAE /* OrderHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51FA64125976CD400F0BEAE /* OrderHistory.swift */; };
+		B51FA64F25976D1E00F0BEAE /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51FA64E25976D1E00F0BEAE /* Order.swift */; };
+		B51FA65B259771A800F0BEAE /* OrderHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51FA65A259771A800F0BEAE /* OrderHistoryViewModel.swift */; };
+		B51FA66025977F9300F0BEAE /* ToastShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51FA65F25977F9300F0BEAE /* ToastShop.swift */; };
+		B51FA66B259782CF00F0BEAE /* OrderHistoryRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51FA66A259782CF00F0BEAE /* OrderHistoryRowViewModel.swift */; };
 		B5FA840E2594CE5800530E05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FA840D2594CE5800530E05 /* AppDelegate.swift */; };
 		B5FA84102594CE5800530E05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FA840F2594CE5800530E05 /* SceneDelegate.swift */; };
-		B5FA84122594CE5800530E05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FA84112594CE5800530E05 /* ContentView.swift */; };
 		B5FA84142594CE5900530E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5FA84132594CE5900530E05 /* Assets.xcassets */; };
 		B5FA84172594CE5900530E05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5FA84162594CE5900530E05 /* Preview Assets.xcassets */; };
 		B5FA841A2594CE5900530E05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5FA84182594CE5900530E05 /* LaunchScreen.storyboard */; };
 		B5FA84252594CE5900530E05 /* AvocadoToastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FA84242594CE5900530E05 /* AvocadoToastTests.swift */; };
 		B5FA84302594CE5900530E05 /* AvocadoToastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FA842F2594CE5900530E05 /* AvocadoToastUITests.swift */; };
-		B5FA84412594CEF300530E05 /* ToastOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FA84402594CEF300530E05 /* ToastOrderView.swift */; };
+		B5FA84412594CEF300530E05 /* OrderForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FA84402594CEF300530E05 /* OrderForm.swift */; };
 		B5FA84552594D39200530E05 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5FA84572594D39200530E05 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
@@ -37,10 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B51FA64125976CD400F0BEAE /* OrderHistory.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = OrderHistory.swift; sourceTree = "<group>"; tabWidth = 2; };
+		B51FA64E25976D1E00F0BEAE /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		B51FA65A259771A800F0BEAE /* OrderHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistoryViewModel.swift; sourceTree = "<group>"; };
+		B51FA65F25977F9300F0BEAE /* ToastShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastShop.swift; sourceTree = "<group>"; };
+		B51FA66A259782CF00F0BEAE /* OrderHistoryRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistoryRowViewModel.swift; sourceTree = "<group>"; };
 		B5FA840A2594CE5800530E05 /* AvocadoToast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvocadoToast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5FA840D2594CE5800530E05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5FA840F2594CE5800530E05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B5FA84112594CE5800530E05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B5FA84132594CE5900530E05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5FA84162594CE5900530E05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B5FA84192594CE5900530E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,7 +59,7 @@
 		B5FA842B2594CE5900530E05 /* AvocadoToastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvocadoToastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5FA842F2594CE5900530E05 /* AvocadoToastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadoToastUITests.swift; sourceTree = "<group>"; };
 		B5FA84312594CE5900530E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5FA84402594CEF300530E05 /* ToastOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastOrderView.swift; sourceTree = "<group>"; };
+		B5FA84402594CEF300530E05 /* OrderForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderForm.swift; sourceTree = "<group>"; };
 		B5FA84512594D37600530E05 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		B5FA84562594D39200530E05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B5FA845B2594D39C00530E05 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -82,6 +90,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B51FA64925976CEB00F0BEAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B51FA64E25976D1E00F0BEAE /* Order.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B51FA64A25976CF100F0BEAE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B5FA84402594CEF300530E05 /* OrderForm.swift */,
+				B51FA64125976CD400F0BEAE /* OrderHistory.swift */,
+				B51FA65F25977F9300F0BEAE /* ToastShop.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B51FA6592597715800F0BEAE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B51FA65A259771A800F0BEAE /* OrderHistoryViewModel.swift */,
+				B51FA66A259782CF00F0BEAE /* OrderHistoryRowViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		B5FA84012594CE5800530E05 = {
 			isa = PBXGroup;
 			children = (
@@ -107,10 +142,11 @@
 		B5FA840C2594CE5800530E05 /* AvocadoToast */ = {
 			isa = PBXGroup;
 			children = (
+				B51FA64A25976CF100F0BEAE /* View */,
+				B51FA6592597715800F0BEAE /* ViewModel */,
+				B51FA64925976CEB00F0BEAE /* Model */,
 				B5FA840D2594CE5800530E05 /* AppDelegate.swift */,
 				B5FA840F2594CE5800530E05 /* SceneDelegate.swift */,
-				B5FA84112594CE5800530E05 /* ContentView.swift */,
-				B5FA84402594CEF300530E05 /* ToastOrderView.swift */,
 				B5FA84132594CE5900530E05 /* Assets.xcassets */,
 				B5FA84182594CE5900530E05 /* LaunchScreen.storyboard */,
 				B5FA841B2594CE5900530E05 /* Info.plist */,
@@ -279,9 +315,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5FA840E2594CE5800530E05 /* AppDelegate.swift in Sources */,
-				B5FA84412594CEF300530E05 /* ToastOrderView.swift in Sources */,
+				B51FA66025977F9300F0BEAE /* ToastShop.swift in Sources */,
+				B5FA84412594CEF300530E05 /* OrderForm.swift in Sources */,
+				B51FA66B259782CF00F0BEAE /* OrderHistoryRowViewModel.swift in Sources */,
+				B51FA65B259771A800F0BEAE /* OrderHistoryViewModel.swift in Sources */,
+				B51FA64F25976D1E00F0BEAE /* Order.swift in Sources */,
 				B5FA84102594CE5800530E05 /* SceneDelegate.swift in Sources */,
-				B5FA84122594CE5800530E05 /* ContentView.swift in Sources */,
+				B51FA64225976CD400F0BEAE /* OrderHistory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
