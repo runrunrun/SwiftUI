@@ -19,7 +19,7 @@ final class OrderHistoryRowViewModelTests: XCTestCase {
                       date: Date())
     let dateFormatter = DateFormatter()
     let dateString = dateFormatter.string(from: order.date)
-    
+
     // Act
     let vm = OrderHistoryRowViewModel(order: order, dateFormatter: dateFormatter)
     

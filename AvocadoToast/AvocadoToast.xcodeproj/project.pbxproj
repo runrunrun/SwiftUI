@@ -14,6 +14,7 @@
 		B51FA66B259782CF00F0BEAE /* OrderHistoryRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51FA66A259782CF00F0BEAE /* OrderHistoryRowViewModel.swift */; };
 		B51FA670259A116600F0BEAE /* OrderHistoryRowViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51FA66F259A116600F0BEAE /* OrderHistoryRowViewModelTests.swift */; };
 		B51FA675259A18C800F0BEAE /* OrderHistoryViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51FA674259A18C800F0BEAE /* OrderHistoryViewModelTests.swift */; };
+		B52043A0259CB9E300B58A97 /* OrderFormUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B520439F259CB9E300B58A97 /* OrderFormUITests.swift */; };
 		B5FA840E2594CE5800530E05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FA840D2594CE5800530E05 /* AppDelegate.swift */; };
 		B5FA84102594CE5800530E05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FA840F2594CE5800530E05 /* SceneDelegate.swift */; };
 		B5FA84142594CE5900530E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5FA84132594CE5900530E05 /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 		B51FA66A259782CF00F0BEAE /* OrderHistoryRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistoryRowViewModel.swift; sourceTree = "<group>"; };
 		B51FA66F259A116600F0BEAE /* OrderHistoryRowViewModelTests.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = OrderHistoryRowViewModelTests.swift; sourceTree = "<group>"; tabWidth = 2; };
 		B51FA674259A18C800F0BEAE /* OrderHistoryViewModelTests.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = OrderHistoryViewModelTests.swift; sourceTree = "<group>"; tabWidth = 2; };
+		B520439F259CB9E300B58A97 /* OrderFormUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderFormUITests.swift; sourceTree = "<group>"; };
 		B5FA840A2594CE5800530E05 /* AvocadoToast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvocadoToast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5FA840D2594CE5800530E05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5FA840F2594CE5800530E05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				B5FA842F2594CE5900530E05 /* AvocadoToastUITests.swift */,
+				B520439F259CB9E300B58A97 /* OrderFormUITests.swift */,
 				B5FA84312594CE5900530E05 /* Info.plist */,
 			);
 			path = AvocadoToastUITests;
@@ -345,6 +348,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B52043A0259CB9E300B58A97 /* OrderFormUITests.swift in Sources */,
 				B5FA84302594CE5900530E05 /* AvocadoToastUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
